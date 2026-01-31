@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D444D28E2F2E9AA7007E8EC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D444D2782F2E9AA5007E8EC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D444D27F2F2E9AA5007E8EC5;
+			remoteInfo = dupFileFinder;
+		};
+		D444D2982F2E9AA7007E8EC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D444D2782F2E9AA5007E8EC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D444D27F2F2E9AA5007E8EC5;
+			remoteInfo = dupFileFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D444D2802F2E9AA5007E8EC5 /* dupFileFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dupFileFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D444D28D2F2E9AA7007E8EC5 /* dupFileFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dupFileFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D444D2972F2E9AA7007E8EC5 /* dupFileFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dupFileFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D444D2822F2E9AA5007E8EC5 /* dupFileFinder */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = dupFileFinder;
+			sourceTree = "<group>";
+		};
+		D444D2902F2E9AA7007E8EC5 /* dupFileFinderTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = dupFileFinderTests;
+			sourceTree = "<group>";
+		};
+		D444D29A2F2E9AA7007E8EC5 /* dupFileFinderUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = dupFileFinderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D444D27D2F2E9AA5007E8EC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D444D28A2F2E9AA7007E8EC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D444D2942F2E9AA7007E8EC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D444D2772F2E9AA5007E8EC5 = {
+			isa = PBXGroup;
+			children = (
+				D444D2822F2E9AA5007E8EC5 /* dupFileFinder */,
+				D444D2902F2E9AA7007E8EC5 /* dupFileFinderTests */,
+				D444D29A2F2E9AA7007E8EC5 /* dupFileFinderUITests */,
+				D444D2812F2E9AA5007E8EC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D444D2812F2E9AA5007E8EC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D444D2802F2E9AA5007E8EC5 /* dupFileFinder.app */,
+				D444D28D2F2E9AA7007E8EC5 /* dupFileFinderTests.xctest */,
+				D444D2972F2E9AA7007E8EC5 /* dupFileFinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D444D27F2F2E9AA5007E8EC5 /* dupFileFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D444D2A12F2E9AA7007E8EC5 /* Build configuration list for PBXNativeTarget "dupFileFinder" */;
+			buildPhases = (
+				D444D27C2F2E9AA5007E8EC5 /* Sources */,
+				D444D27D2F2E9AA5007E8EC5 /* Frameworks */,
+				D444D27E2F2E9AA5007E8EC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D444D2822F2E9AA5007E8EC5 /* dupFileFinder */,
+			);
+			name = dupFileFinder;
+			packageProductDependencies = (
+			);
+			productName = dupFileFinder;
+			productReference = D444D2802F2E9AA5007E8EC5 /* dupFileFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D444D28C2F2E9AA7007E8EC5 /* dupFileFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D444D2A42F2E9AA7007E8EC5 /* Build configuration list for PBXNativeTarget "dupFileFinderTests" */;
+			buildPhases = (
+				D444D2892F2E9AA7007E8EC5 /* Sources */,
+				D444D28A2F2E9AA7007E8EC5 /* Frameworks */,
+				D444D28B2F2E9AA7007E8EC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D444D28F2F2E9AA7007E8EC5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D444D2902F2E9AA7007E8EC5 /* dupFileFinderTests */,
+			);
+			name = dupFileFinderTests;
+			packageProductDependencies = (
+			);
+			productName = dupFileFinderTests;
+			productReference = D444D28D2F2E9AA7007E8EC5 /* dupFileFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D444D2962F2E9AA7007E8EC5 /* dupFileFinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D444D2A72F2E9AA7007E8EC5 /* Build configuration list for PBXNativeTarget "dupFileFinderUITests" */;
+			buildPhases = (
+				D444D2932F2E9AA7007E8EC5 /* Sources */,
+				D444D2942F2E9AA7007E8EC5 /* Frameworks */,
+				D444D2952F2E9AA7007E8EC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D444D2992F2E9AA7007E8EC5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D444D29A2F2E9AA7007E8EC5 /* dupFileFinderUITests */,
+			);
+			name = dupFileFinderUITests;
+			packageProductDependencies = (
+			);
+			productName = dupFileFinderUITests;
+			productReference = D444D2972F2E9AA7007E8EC5 /* dupFileFinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D444D2782F2E9AA5007E8EC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					D444D27F2F2E9AA5007E8EC5 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					D444D28C2F2E9AA7007E8EC5 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = D444D27F2F2E9AA5007E8EC5;
+					};
+					D444D2962F2E9AA7007E8EC5 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = D444D27F2F2E9AA5007E8EC5;
+					};
+				};
+			};
+			buildConfigurationList = D444D27B2F2E9AA5007E8EC5 /* Build configuration list for PBXProject "dupFileFinder" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D444D2772F2E9AA5007E8EC5;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D444D2812F2E9AA5007E8EC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D444D27F2F2E9AA5007E8EC5 /* dupFileFinder */,
+				D444D28C2F2E9AA7007E8EC5 /* dupFileFinderTests */,
+				D444D2962F2E9AA7007E8EC5 /* dupFileFinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D444D27E2F2E9AA5007E8EC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D444D28B2F2E9AA7007E8EC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D444D2952F2E9AA7007E8EC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D444D27C2F2E9AA5007E8EC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D444D2892F2E9AA7007E8EC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D444D2932F2E9AA7007E8EC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D444D28F2F2E9AA7007E8EC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D444D27F2F2E9AA5007E8EC5 /* dupFileFinder */;
+			targetProxy = D444D28E2F2E9AA7007E8EC5 /* PBXContainerItemProxy */;
+		};
+		D444D2992F2E9AA7007E8EC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D444D27F2F2E9AA5007E8EC5 /* dupFileFinder */;
+			targetProxy = D444D2982F2E9AA7007E8EC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D444D29F2F2E9AA7007E8EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = D48W7Y8PSR;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D444D2A02F2E9AA7007E8EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = D48W7Y8PSR;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D444D2A22F2E9AA7007E8EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D48W7Y8PSR;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = algorithmArtistry.dupFileFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D444D2A32F2E9AA7007E8EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D48W7Y8PSR;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = algorithmArtistry.dupFileFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D444D2A52F2E9AA7007E8EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D48W7Y8PSR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = algorithmArtistry.dupFileFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dupFileFinder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dupFileFinder";
+			};
+			name = Debug;
+		};
+		D444D2A62F2E9AA7007E8EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D48W7Y8PSR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = algorithmArtistry.dupFileFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dupFileFinder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dupFileFinder";
+			};
+			name = Release;
+		};
+		D444D2A82F2E9AA7007E8EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D48W7Y8PSR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = algorithmArtistry.dupFileFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = dupFileFinder;
+			};
+			name = Debug;
+		};
+		D444D2A92F2E9AA7007E8EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D48W7Y8PSR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = algorithmArtistry.dupFileFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = dupFileFinder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D444D27B2F2E9AA5007E8EC5 /* Build configuration list for PBXProject "dupFileFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D444D29F2F2E9AA7007E8EC5 /* Debug */,
+				D444D2A02F2E9AA7007E8EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D444D2A12F2E9AA7007E8EC5 /* Build configuration list for PBXNativeTarget "dupFileFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D444D2A22F2E9AA7007E8EC5 /* Debug */,
+				D444D2A32F2E9AA7007E8EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D444D2A42F2E9AA7007E8EC5 /* Build configuration list for PBXNativeTarget "dupFileFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D444D2A52F2E9AA7007E8EC5 /* Debug */,
+				D444D2A62F2E9AA7007E8EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D444D2A72F2E9AA7007E8EC5 /* Build configuration list for PBXNativeTarget "dupFileFinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D444D2A82F2E9AA7007E8EC5 /* Debug */,
+				D444D2A92F2E9AA7007E8EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D444D2782F2E9AA5007E8EC5 /* Project object */;
+}
