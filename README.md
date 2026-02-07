@@ -24,3 +24,6 @@ xcodebuild -scheme dupFileFinder -destination 'platform=macOS' build
 
 - macOS (SwiftUI, AppKit, Vision, CryptoKit)
 - Xcode with macOS SDK
+
+
+# This is a test
